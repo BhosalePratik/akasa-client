@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+@import "bootstrap/scss/bootstrap";
+@import "./styles/variables.scss";
+
+
+body,
+html {
+    font-family: $font-family !important;
+    font-display: swap;
+    font-size: $font-size-regular !important;
+    background-color: $color-white;
+}
