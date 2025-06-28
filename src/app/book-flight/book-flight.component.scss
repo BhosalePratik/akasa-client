@@ -1,0 +1,44 @@
+
+.box {
+    padding: .625rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.input-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .625rem;
+}
+
+.btn-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+    margin-top: 1rem;
+}
+
+.special-box {
+    display: flex;
+    align-items: center;
+}
+
+.pills-box {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.label {
+    font-weight: 500;
+}
