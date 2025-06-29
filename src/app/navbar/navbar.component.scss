@@ -1,0 +1,58 @@
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+img {
+    width: 134px;
+    height: 36px;
+}
+
+.login-btn {
+    background-color: #FFFFFF;
+    padding: .625rem 1rem;
+}
+
+.navbar {
+    height: 68px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.logo {
+    width: 180px;
+    height: 46px;
+}
+
+.nav-box {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.li-box {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   margin-left: 32px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 500;
+    margin: 0;
+}
+
+.li-item {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1.5rem;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
