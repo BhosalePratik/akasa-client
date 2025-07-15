@@ -69,6 +69,11 @@ button {
     height: 3rem;
 }
 
+div[special] {
+    @extend .rounded-lg;
+    @extend .rounded-tr-none;
+}
+
 .btn-primary {
     background-color: $color-primary;
     border-color: $color-primary;

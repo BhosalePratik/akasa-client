@@ -1,41 +1,43 @@
 <div>
     <mat-tab-group>
         <mat-tab label="Book a Flight">
-            <form>
-                <div class="radio-box">
-                    <div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input custom-radio" type="radio" id="oneWay" name="trip" value="oneWay" checked/>
-                            <label class="label form-check-label" for="oneWay">One Way</label>
+            <div class="form-box">
+                <form>
+                    <div class="radio-box">
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input custom-radio" type="radio" id="oneWay" name="trip" value="oneWay" checked/>
+                                <label class="label form-check-label" for="oneWay">One Way</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input custom-radio" type="radio" id="round" name="trip" value="round" />
+                                <label class="label form-check-label" for="round">Round Trip</label>
+                            </div> 
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input custom-radio" type="radio" id="round" name="trip" value="round" />
-                            <label class="label form-check-label" for="round">Round Trip</label>
+                        <div>
+                            <input type="text" id="currency" />
                         </div> 
                     </div>
-                    <div>
-                        <input type="text" id="currency" />
-                    </div> 
-                </div>
-                <div class="input-box">
-                    <input class="text-input" type="text" id="from"/>
-                    <input class="text-input" type="text" id="to"/>
-                    <input class="text-input" type="date" id="date"/>
-                    <input class="text-input" type="text" id="passengers"/>
-                    <input class="text-input" type="text" id="promoCode"/>
-                </div>
-                <div class="btn-box">
-                    <div class="special-box">
-                        <span>spacial fares</span>
-                        <div class="pills-box">
-                            <div>
-                                <button class="badge rounded-pill text-bg-secondary">Armed Forces</button>
+                    <div class="input-box">
+                        <input class="text-input" type="text" id="from"/>
+                        <input class="text-input" type="text" id="to"/>
+                        <input class="text-input" type="date" id="date"/>
+                        <input class="text-input" type="text" id="passengers"/>
+                        <input class="text-input" type="text" id="promoCode"/>
+                    </div>
+                    <div class="btn-box">
+                        <div class="special-box">
+                            <span>spacial fares</span>
+                            <div class="pills-box">
+                                <div>
+                                    <button class="badge rounded-pill text-bg-secondary">Armed Forces</button>
+                                </div>
                             </div>
                         </div>
+                        <button type="submit" class="btn btn-primary">Search Flights</button>
                     </div>
-                    <button type="submit" class="btn btn-primary">Search Flights</button>
-                </div>
-            </form>
+                </form>
+            </div>
         </mat-tab>
         <mat-tab label="Check in"> Content 2 </mat-tab>
         <mat-tab label="My Booking"> Content 3 </mat-tab>
